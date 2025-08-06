@@ -85,7 +85,7 @@
     <div class="heart"></div>
     <div class="crown"></div>
     <div class="letter">
-      <p>Congratulations on your performance and all the effort you poured into it! I may not have seen it firsthand, but I know you shined out there. You always give your all, and that alone already makes me so proud of you. Keep being amazing. I LOVE YAA! 💖</p>
+      <p>Congratulations on your performance and all the effort you poured into it! I may not have seen it firsthand, but I know you shined out there. You always give your all, and that alone already makes me so proud of you.I LOVE YAA! 💖</p>
     </div>
     <div class="decor decor1">✨</div>
     <div class="decor decor2">🌟</div>
