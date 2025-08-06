@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Letter for MJ</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .heart-container {
+      position: relative;
+      width: 300px;
+      height: 270px;
+    }
+    .heart {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 300px;
+      height: 270px;
+      background: pink;
+      clip-path: path("M150 270 Q75 200 0 150 Q75 75 150 150 Q225 75 300 150 Q225 200 150 270 Z");
+      box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
+    }
+    .crown {
+      position: absolute;
+      top: -50px;
+      left: 90px;
+      width: 120px;
+      height: 60px;
+      background: gold;
+      border-radius: 0 0 60px 60px;
+      clip-path: polygon(10% 100%, 25% 10%, 40% 100%, 60% 10%, 75% 100%, 90% 10%, 100% 100%, 0% 100%);
+      box-shadow: 0 0 5px gold;
+    }
+    .letter {
+      position: absolute;
+      top: 50px;
+      left: 20px;
+      width: 260px;
+      height: 170px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 20px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+      text-align: center;
+    }
+    .decor {
+      position: absolute;
+      font-size: 20px;
+      animation: float 3s infinite ease-in-out;
+    }
+    .decor1 {
+      top: -20px;
+      left: 10px;
+    }
+    .decor2 {
+      top: -20px;
+      right: 10px;
+    }
+    .decor3 {
+      bottom: -20px;
+      left: 40px;
+    }
+    .decor4 {
+      bottom: -20px;
+      right: 40px;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="heart-container">
+    <div class="heart"></div>
+    <div class="crown"></div>
+    <div class="letter">
+      <p>Congratulations on your performance and all the effort you poured into it! I may not have seen it firsthand, but I know you shined out there. You always give your all, and that alone already makes me so proud of you. Keep being amazing. I LOVE YAA! 💖</p>
+    </div>
+    <div class="decor decor1">✨</div>
+    <div class="decor decor2">🌟</div>
+    <div class="decor decor3">💖</div>
+    <div class="decor decor4">🎀</div>
+  </div>
+</body>
+</html>
